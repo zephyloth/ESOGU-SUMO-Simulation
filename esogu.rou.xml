@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-26 00:12:28 by Eclipse SUMO netedit Version 1.16.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="Electric-Car" length="4.00" minGap="2.00" maxSpeed="120.00" color="magenta" accel="2.5" decel="4.5" sigma="0.0">
+        <param key="airDragCoefficient" value="0.3"/>
+        <param key="constantPowerIntake" value="20"/>
+        <param key="frontSurfaceArea" value="2"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="internalMomentOfInertia" value="0.015"/>
+        <param key="maximumBatteryCapacity" value="2000"/>
+        <param key="maximumPower" value="240"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="stoppingThreshold" value="0.05"/>
+        <param key="vehicleMass" value="2000"/>
+    </vType>
+ 
+    <route id="Route_C1" edges="K1 1060234726#2 K2 K3 K4 K5 K6 -212712095#10 E28 E22 368620842#7 -E9 -E39 -E41 669466787#2 669466787#3 K24 387337623 K10 368610900#3 K11 K12 K13 K14 K15 K16 K17 K18 K19 K20 K21 369628890#0 K23 K24 K25 K26 K27 K28 K29 K30 K31 K32 K33 K34 K35"/>  
+ 
+    <route id="Route_C2" edges="K1 1060234726#2 1060234726#3 368610899 -212712097#23 -212712097#22 -212712097#21 -212712097#20 -212712097#19 -212712097#18 -212712097#17 -212712097#16 -212712097#15 -212712097#14 -212712097#13 -212712097#12 -212712097#11 -212712097#10 -212712097#9 -212712097#8 -212712097#7 -212712097#6 -212712097#5 -212712097#4 -212712097#3 -212712097#2 -212712097#1 -212712097#0 -E23 -E37 E38 -E0 -E39 E40 E44 K14 K15 K16 K17 K18 605647262#1 E14 E17 E18 -212712104#4 -E0 -E39 -E41 669466787#2 669466787#3 K24 K25 K26 -212712101#4 -212712101#3 -212712101#2 -212712101#1 -212712101#0 -368620842#7 -E22 -368620842#3 E23 -368620842#0 E27 E26 K31 K32 K33 K34 K35"/>
+
+    <route id="Route_C3" edges="K1 1060234726#2 K2 K3 K4 K5 369625684#1 212712098#0 212712098#1 368620842#0 -E23 368620842#3 E22 368620842#7 -E9 -E39 E40 E43 -E34 E19 -E18 -E17 -E14 -605647262#1 K15 K16 K17 K18 605647262#1 E14 E17 E18 -212712104#4 -E38 -E21 368620842#7 -E9 -E39 -E41 669466787#2 669466787#3 K24 K25 K26 -212712101#4 -212712101#3 -212712101#2 -212712101#1 -212712101#0 -368620842#7 -E22 -368620842#3 E23 -368620842#0 E27 E26 K31 K32 K33 K34 K35"/>
+</routes>

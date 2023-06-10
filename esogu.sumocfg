@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-16 15:46:42 by Eclipse SUMO GUI Version 1.16.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="esogu.net.xml"/>
+        <route-files value="esogu.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="2000"/>
+    </time>
+ 
+</configuration>
